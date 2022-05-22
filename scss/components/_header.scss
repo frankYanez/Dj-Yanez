@@ -1,0 +1,34 @@
+.video-hero video{
+    max-width: 100%;
+}
+
+.header-hero {
+    position: relative;
+
+    .contenido-hero {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgb(40,40,40);
+        background: linear-gradient(138deg, rgba(40,40,40,1) 0%, rgba(32,26,32,0.5) 54%, rgba(0,0,0,0.300455216266194) 91%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        color: white;
+        font-size: 150px;
+    }
+    p {
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        text-decoration: underline;
+        
+    }
+}
+
