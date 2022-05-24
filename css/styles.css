@@ -1,8 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,500;1,700&display=swap");
 * {
+  color: white;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background: rgb(40, 40, 40);
+  background: linear-gradient(331deg, rgb(40, 40, 40) 25%, rgb(148, 48, 154) 37%, rgb(0, 0, 0) 48%, rgb(0, 0, 0) 82%);
+}
+
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background: rgb(40, 40, 40);
+  background: linear-gradient(331deg, rgb(40, 40, 40) 25%, rgb(148, 48, 154) 37%, rgb(0, 0, 0) 48%, rgb(0, 0, 0) 82%);
 }
 
 .nav-bar {
@@ -62,6 +84,30 @@
   font-weight: bold;
   font-size: 40px;
   text-decoration: underline;
+}
+
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background: rgb(40, 40, 40);
+  background: linear-gradient(331deg, rgb(40, 40, 40) 25%, rgb(148, 48, 154) 37%, rgb(0, 0, 0) 48%, rgb(0, 0, 0) 82%);
+}
+
+h2 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 120px;
+}
+
+.img-1 {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

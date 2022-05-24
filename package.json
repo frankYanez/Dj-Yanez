@@ -1,7 +1,6 @@
 {
   "name": "yanez-page",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/frankYanez/Dj-Yanez/issues"
   },
-  "homepage": "https://github.com/frankYanez/Dj-Yanez#readme"
+  "homepage": "https://github.com/frankYanez/Dj-Yanez#readme",
+  "description": ""
 }

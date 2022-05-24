@@ -1,7 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,500;1,700&display=swap');
 
+// Variables
+$colorUno: rgb(240,33,235);
+$colorDos: black;
+$colorTres: white;
+$colorCuatro: rgb(40,40,40);
+
 * {
+    color: $colorTres;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    color: $colorTres;
+    background: rgb(40,40,40);
+    background: linear-gradient(331deg, rgba(40,40,40,1) 25%, rgba(148,48,154,1) 37%, rgba(0,0,0,1) 48%, rgba(0,0,0,1) 82%);
+}
+
+
+
