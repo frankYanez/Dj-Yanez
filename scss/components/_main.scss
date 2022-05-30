@@ -10,3 +10,13 @@ h2 {
 .img-1 {
     max-width: 100%;
 }
+
+.cards {
+    justify-content: center;
+    gap: 30px;
+    .card {
+        background-color: $colorDos;
+        border: 1.5px solid $colorUno;
+        box-shadow: 27px 26px 21px 0px $colorDos ;
+    }
+}
