@@ -1,4 +1,25 @@
-@import 'base/globales.scss';
+@import 'components/form.scss';
 @import 'components/nav.scss';
 @import 'components/header';
 @import 'components/main';
+
+
+.container{
+    margin: 0 5%;
+
+}
+
+.button{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+/*
+
+
+
+
+*/

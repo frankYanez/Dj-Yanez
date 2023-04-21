@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,500;1,700&display=swap");
+.form {
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding: 20px;
+  color: black;
+  border-radius: 8px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,18 +21,7 @@ body {
   color: white;
   background: rgb(40, 40, 40);
   background: linear-gradient(331deg, rgb(40, 40, 40) 25%, rgb(148, 48, 154) 37%, rgb(0, 0, 0) 48%, rgb(0, 0, 0) 82%);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  color: white;
-  background: rgb(40, 40, 40);
-  background: linear-gradient(331deg, rgb(40, 40, 40) 25%, rgb(148, 48, 154) 37%, rgb(0, 0, 0) 48%, rgb(0, 0, 0) 82%);
+  background-size: cover;
 }
 
 .nav-bar {
@@ -31,6 +30,7 @@ body {
   border-bottom: 1px solid white;
 }
 .nav-bar .nav-bar_content {
+  display: flex;
   align-items: center;
   justify-content: space-around;
   background: rgb(240, 33, 235);
@@ -52,8 +52,10 @@ body {
   width: 10px;
 }
 
-.video-hero video {
-  max-width: 100%;
+.video-hero img {
+  width: 100vw;
+  max-height: 80vh;
+  object-fit: cover;
 }
 
 .header-hero {
@@ -94,6 +96,7 @@ body {
   color: white;
   background: rgb(40, 40, 40);
   background: linear-gradient(331deg, rgb(40, 40, 40) 25%, rgb(148, 48, 154) 37%, rgb(0, 0, 0) 48%, rgb(0, 0, 0) 82%);
+  background-size: cover;
 }
 
 h2 {
@@ -104,17 +107,45 @@ h2 {
 }
 
 .img-1 {
-  max-width: 100%;
+  max-width: 50%;
+  border-radius: 5px;
 }
 
 .cards {
+  display: flex;
   justify-content: center;
   gap: 30px;
 }
 .cards .card {
+  max-width: 400px;
   background-color: black;
   border: 1.5px solid rgb(240, 33, 235);
   box-shadow: 27px 26px 21px 0px black;
 }
+.cards .card img {
+  width: 100%;
+}
+
+.section-welcome {
+  display: flex;
+}
+
+.container {
+  margin: 0 5%;
+}
+
+.button {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/*
+
+
+
+
+*/
 
 /*# sourceMappingURL=styles.css.map */

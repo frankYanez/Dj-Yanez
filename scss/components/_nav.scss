@@ -1,15 +1,15 @@
 @import '../base/globales';
 .nav-bar {
+    
     background: $colorUno;
     background: linear-gradient(0deg, rgba(240,33,235,1) 0%, rgba(32,26,32,1) 19%, rgba(0,0,0,1) 91%); 
     border-bottom: 1px solid white;
     .nav-bar_content {
+        display: flex;
         align-items: center;
         justify-content: space-around;
         background: rgb(240,33,235);
         background: linear-gradient(0deg, rgba(240,33,235,1) 0%, rgba(32,26,32,1) 19%, rgba(0,0,0,1) 91%); 
-    
-        
     }
 }
 .nav-bar img {

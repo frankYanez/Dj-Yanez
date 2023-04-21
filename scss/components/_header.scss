@@ -1,5 +1,7 @@
-.video-hero video{
-    max-width: 100%;
+.video-hero img{
+    width: 100vw;
+    max-height: 80vh;
+    object-fit: cover;
 }
 
 .header-hero {
