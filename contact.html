@@ -4,47 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b243437331.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Contact</title>
+    <title>Yanez | Contact</title>
 </head>
 <body>
-    <nav class="nav-bar">
-        <div class="nav-bar_content container d-flex">
-            <div>
-                <img id="logo" src="images/PhotoRoom-20220521_120502.png" alt="">
+    <div class="nav-bar d-flex">
+
+        <img id="logo" src="images/PhotoRoom-20220521_120502.png" alt="">
+        <nav class="nav-bar_content">
+    
+          <div id="hamburguesa" class="hamburguesa">
+            <div class="hamburguesa-line"></div>
+            <div class="hamburguesa-line"></div>
+            <div class="hamburguesa-line"></div>
+    
+          </div>
+    
+          <div id="links" class="nav-bar_content">
+    
+            <div class="d-flex">
+              <a href="./index.html">Inicio</a>
+              <i class="fa-solid fa-house-user icons"></i>
             </div>
-            
             <div>
-                <a href="./index.html">Inicio</a>
-                <i class="fa-solid fa-house-user icons"></i>
+              <a href="./events.html">Eventos</a>
+              <i class="fa-solid fa-champagne-glasses icons"></i>
             </div>
             <div>
-                <a href="">Eventos</a>
-                <i class="fa-solid fa-champagne-glasses icons"></i>
+              <a href="./gallery.html">Galeria</a>
+              <i class="fa-solid fa-image icons"></i>
             </div>
             <div>
-                <a href="./gallery.html">Galeria</a>
-                <i class="fa-solid fa-image icons"></i>
+              <a href="./contact.html">Contacto</a>
+              <i class="fa-solid fa-headset icons"></i>
             </div>
-            <div>
-                <a href="./contact.html">Contacto</a>
-                <i class="fa-solid fa-headset icons"></i>
+    
+    
+          </div>
+        </nav>
+    
+      </div>
+
+    <h2 class="container">Contact</h2>
+    
+    <div class="form-contain">
+       
+        <form  id="form" class="form">
+            <h3>Event</h3>
+            <label for="">Name</label>
+            <input id="name" placeholder="Name" type="text">
+    
+            <label for="">Email</label>
+            <input id="email" placeholder="email"  type="email">
+    
+            <label for="">Event</label>
+            <input id="text" type="text" >
+    
+            <div class="captcha">
+                <div id="captcha-img"></div>
+                <label for="">Ingresa el Captcha</label>
+                <div>
+                    <input id="input-captcha" type="text">
+                    <img class="img-check" id="img-check" src="" alt="">
+                </div>
+               
             </div>
-        </div>
+            <div class="btn-container">
+              <button class="button" id="button-send" type="submit">Send</button>
+              <button class="button btn-hidde" id="button-3" onclick="addx3()" >Send 3 events</button>
+
+            </div>
+    
+    
+        </form>
+    </div>
+
+    <table class="table" id="table-dates">
         
-    </nav>
-    <h2>Questions?</h2>
-    <form action="" class="form">
-        <label for="">Name</label>
-        <input type="text">
+        
+          <thead>
+       
+            <tr>
+                <th>Eventos del Mes</th>
+                
+            </tr>
+          </thead>
+          <tbody id="content-events"></tbody>
+        
+        
+        
+      </table>
+      <button class="button" id="empty">Empty</button>
+    
+      <footer class="footer">
+         
+        <section class="redes">
+        
+          <i class="fa-brands fa-instagram" style="color: #ffffff;"> <a href="https://www.instagram.com/yanez.frank/" target="_blank">Instagram</a></i>
+    
+          <i class="fa-brands fa-square-facebook" style="color: #ffffff;"> <a href="https://www.facebook.com/frank.l.king/" target="_blank">Facebook</a> </i>
+       
+          <i class="fa-brands fa-github" style="color: #ffffff;"><a href="https://github.com/frankYanez" target="_blank">Github</a> </i>
+        
+        
+        </section>
 
-        <label for="">Email</label>
-        <input type="text">
+        <section class="section-created">
+        <p>Created by</p>
+        <img src="./images/logo-black.png" alt="">
+        </section>
+      
 
-        <label for="">Question</label>
-        <input type="text">
+      
+      
+    </footer>
+ 
 
-        <button class="button">Send</button>
-    </form>
+    <script src="hamburguesa.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>

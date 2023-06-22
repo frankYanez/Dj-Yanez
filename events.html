@@ -4,44 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b243437331.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/styles.css">
     <title>Yanez | Events</title>
 </head>
 <body>
-    <nav class="nav-bar">
-        <div class="nav-bar_content container d-flex">
-            <div>
-                <img id="logo" src="images/PhotoRoom-20220521_120502.png" alt="">
-            </div>
-            
-            <div>
-                <a href="./index.html">Inicio</a>
-                <i class="fa-solid fa-house-user icons"></i>
-            </div>
-            <div>
-                <a href="">Eventos</a>
-                <i class="fa-solid fa-champagne-glasses icons"></i>
-            </div>
-            <div>
-                <a href="./gallery.html">Galeria</a>
-                <i class="fa-solid fa-image icons"></i>
-            </div>
-            <div>
-                <a href="./contact.html">Contacto</a>
-                <i class="fa-solid fa-headset icons"></i>
-            </div>
-        </div>
-        
-    </nav>
+    <div class="nav-bar d-flex">
 
-    <h1>Events</h1>
+        <img id="logo" src="images/PhotoRoom-20220521_120502.png" alt="">
+        <nav class="nav-bar_content">
+    
+          <div id="hamburguesa" class="hamburguesa">
+            <div class="hamburguesa-line"></div>
+            <div class="hamburguesa-line"></div>
+            <div class="hamburguesa-line"></div>
+    
+          </div>
+    
+          <div id="links" class="nav-bar_content">
+    
+            <div class="d-flex">
+              <a href="./index.html">Inicio</a>
+              <i class="fa-solid fa-house-user icons"></i>
+            </div>
+            <div>
+              <a href="./events.html">Eventos</a>
+              <i class="fa-solid fa-champagne-glasses icons"></i>
+            </div>
+            <div>
+              <a href="./gallery.html">Galeria</a>
+              <i class="fa-solid fa-image icons"></i>
+            </div>
+            <div>
+              <a href="./contact.html">Contacto</a>
+              <i class="fa-solid fa-headset icons"></i>
+            </div>
+    
+    
+          </div>
+        </nav>
+    
+      </div>
 
-    <ul>
+    <h2 class="container">Events</h2>
+
+    <ul class="d-flex separation">
         <li>Casamientos</li>
         <li>Cumples de 15</li>
         <li>Discotecas</li>
         <li>Reuniones Sociales</li>
     </ul>
+
+    <h3>¿Que incluyen los eventos?</h3>
+
+    <table class="table separation">
+        <thead>
+            <tr>
+                <td>Detalles</td>
+                <td>Si</td>
+                <td>No</td>
+            </tr>
+        </thead>
+       
+        <tr>
+            <td>Baile Carioca</td>
+            <td><img src="./images/cheque.png" alt=""></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Cotillon</td>
+            <td></td>
+            <td><img src="./images/cancelar.png" alt=""></td>
+        </tr>
+        <tr>
+            <td>Robot Luminoso</td>
+            <td></td>
+            <td><img src="./images/cancelar.png" alt=""></td>
+        </tr>
+        <tr>
+            <td>Show fotografico</td>
+            <td><img src="./images/cheque.png" alt=""></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Sonido</td>
+            <td></td>
+            <td><img src="./images/cancelar.png" alt=""></td>
+        </tr>
+    </table>
+
+    <video class="video separation shadow" autoplay loop muted src="./images/Yanez-video.mp4"></video>
+
+    <footer class="footer">
+         
+        <section class="redes">
+        
+          <i class="fa-brands fa-instagram" style="color: #ffffff;"> <a href="https://www.instagram.com/yanez.frank/" target="_blank">Instagram</a></i>
     
+          <i class="fa-brands fa-square-facebook" style="color: #ffffff;"> <a href="https://www.facebook.com/frank.l.king/" target="_blank">Facebook</a> </i>
+       
+          <i class="fa-brands fa-github" style="color: #ffffff;"><a href="https://github.com/frankYanez" target="_blank">Github</a> </i>
+        
+        
+        </section>
+
+        <section class="section-created">
+        <p>Created by</p>
+        <img src="./images/logo-black.png" alt="">
+        </section>
+      
+
+      
+      
+    </footer>
+ 
+    <script src="hamburguesa.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>

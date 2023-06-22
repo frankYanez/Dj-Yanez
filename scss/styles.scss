@@ -1,7 +1,11 @@
 @import 'components/form.scss';
 @import 'components/nav.scss';
 @import 'components/header';
-@import 'components/main';
+@import 'components/main.scss';
+@import 'components/table.scss';
+@import 'components/captcha.scss';
+@import 'components/gallery.scss';
+@import 'components/footer.scss';
 
 
 .container{
@@ -9,17 +13,5 @@
 
 }
 
-.button{
-    color: white;
-    background-color: black;
-    padding: 10px;
-    cursor: pointer;
-    
-}
-
-/*
 
 
-
-
-*/

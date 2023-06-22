@@ -10,14 +10,72 @@ $colorCuatro: rgb(40,40,40);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 
-body {
-    color: $colorTres;
-    background: rgb(40,40,40);
+html{
     background: linear-gradient(331deg, rgba(40,40,40,1) 25%, rgba(148,48,154,1) 37%, rgba(0,0,0,1) 48%, rgba(0,0,0,1) 82%);
     background-size: cover;
+    background-repeat: no-repeat;
+}
+body {
+    color: $colorTres;
+    background: linear-gradient(331deg, rgba(40,40,40,1) 25%, rgba(148,48,154,1) 37%, rgba(0,0,0,1) 48%, rgba(0,0,0,1) 82%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
+h1 {
+    font-weight: 700;
+    color: white;
+    // font-size: 150px;
+}
 
+h2{
+    font-weight: bolder;
+    font-size: 50px;
+    
+}
+h3{
+    color: $colorUno;
+    text-align: center;
+}
+p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
 
+.button{
+    display: block;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+
+.button:hover{
+    font-weight: bold;
+    background-color: rgb(58, 54, 54);
+}
+
+.separation{
+    margin: 100px 0;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.f-column{
+    flex-direction: column;
+}
+
+.shadow{
+    box-shadow: 27px 26px 21px 0px $colorDos ;
+}

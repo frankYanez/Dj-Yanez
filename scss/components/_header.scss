@@ -1,37 +1,91 @@
-.video-hero img{
-    width: 100vw;
-    max-height: 80vh;
-    object-fit: cover;
+.video-hero {
+    display: flex;
+    padding: 5rem 0;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 100%);
+    // width: 100%;
+    // max-height: 80vh;
+    // object-fit: ;
+    
+}
+
+.photo-header{
+    max-width: 50%;
+    object-fit: contain;
 }
 
 .header-hero {
-    position: relative;
+    
+    background-image: url("../../images/header-back.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
 
-    .contenido-hero {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background: rgb(40,40,40);
-        background: linear-gradient(138deg, rgba(40,40,40,1) 0%, rgba(32,26,32,0.5) 54%, rgba(0,0,0,0.300455216266194) 91%);
+.contenido-hero{
+    width: 50%;
+    text-align: center;
+    padding: 10%;
+    
+}
+
+.contenido-hero h1{
+    display: block;
+    padding: 40px;
+   font-size: clamp(1rem,10vw,6rem);
+}
+
+.contenido-hero p{
+    
+
+    font-weight: bold;
+    font-size: clamp(0.5rem, 5vw, 2.5rem);
+    display: inline-block;
+    background-color: $colorUno;
+    color: white;
+    padding: 15px;
+    // transition: background 2s;
+    
+}
+
+@media (max-width: 420px){
+    .contenido-hero{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-    }
-    h1 {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 700;
-        color: white;
-        font-size: 150px;
-    }
-    p {
-        color: white;
-        font-family: 'Raleway', sans-serif;
-        font-weight: bold;
-        font-size: 40px;
-        text-decoration: underline;
-        
+        justify-content: center;
+
+        padding: 0;
+        h1{
+            margin: 0 auto;
+            padding: 0;
+        }
     }
 }
+
+
+//     position: relative;
+//     display: flex;
+//     justify-content: center;
+
+//     .contenido-hero {
+//         position: absolute;
+//         width: 80%;
+//         height: 100%;
+//         background: rgb(40,40,40);
+//         background: linear-gradient(138deg, rgba(40,40,40,1) 0%, rgba(32,26,32,0.5) 54%, rgba(0,0,0,0.300455216266194) 91%);
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//     }
+   
+// }
+
+// .contenido-hero h1{
+//     font-size: 100px;
+// }
+
 
 

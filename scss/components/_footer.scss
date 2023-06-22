@@ -1,0 +1,33 @@
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $colorDos;
+    width: 100%;
+    padding: 40px;
+    border-top: 2px solid $colorUno;
+    
+}
+
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    a{
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        color: $colorTres;
+    }
+    
+}
+.redes a:hover{
+    color: $colorUno;
+}
+
+.section-created {
+    text-align: center;
+    img{
+        text-align: center;
+        width: 60px;
+    }
+}

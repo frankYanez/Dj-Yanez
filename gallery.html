@@ -4,36 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b243437331.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/styles.css">
     <title>Yanez | Gallery</title>
 </head>
 <body>
-    <nav class="nav-bar">
-        <div class="nav-bar_content container d-flex">
-            <div>
-                <img src="images/PhotoRoom-20220521_120502.png" alt="">
-            </div>
-            
-            <div>
-                <a href="./index.html">Inicio</a>
-                <i class="fa-solid fa-house-user icons"></i>
-            </div>
-            <div>
-                <a href="./events.html">Eventos</a>
-                <i class="fa-solid fa-champagne-glasses icons"></i>
-            </div>
-            <div>
-                <a href="./gallery.html">Galeria</a>
-                <i class="fa-solid fa-image icons"></i>
-            </div>
-            <div>
-                <a href="./contact.html">Contacto</a>
-                <i class="fa-solid fa-headset icons"></i>
-            </div>
-        </div>
-        
-    </nav>
-    <h1>Gallery</h1>
+    <div class="nav-bar d-flex">
+
+        <img id="logo" src="images/PhotoRoom-20220521_120502.png" alt="">
+        <nav class="nav-bar_content">
     
+          <div id="hamburguesa" class="hamburguesa">
+            <div class="hamburguesa-line"></div>
+            <div class="hamburguesa-line"></div>
+            <div class="hamburguesa-line"></div>
+    
+          </div>
+    
+          <div id="links" class="nav-bar_content">
+    
+            <div class="d-flex">
+              <a href="./index.html">Inicio</a>
+              <i class="fa-solid fa-house-user icons"></i>
+            </div>
+            <div>
+              <a href="./events.html">Eventos</a>
+              <i class="fa-solid fa-champagne-glasses icons"></i>
+            </div>
+            <div>
+              <a href="./gallery.html">Galeria</a>
+              <i class="fa-solid fa-image icons"></i>
+            </div>
+            <div>
+              <a href="./contact.html">Contacto</a>
+              <i class="fa-solid fa-headset icons"></i>
+            </div>
+    
+    
+          </div>
+        </nav>
+    
+      </div>
+    <h2 class="container">Gallery</h2>
+
+    <div class="contain-gallery separation">
+        <div class="row">
+            <img src="./images/caro-1.jpg" alt="">
+            <img src="./images/caro-2.jpg" alt="">
+            <img src="./images/img-1.png" alt="">
+        </div>
+        <div>
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+        <div>
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+    </div>
+
+    <footer class="footer">
+         
+        <section class="redes">
+        
+          <i class="fa-brands fa-instagram" style="color: #ffffff;"> <a href="https://www.instagram.com/yanez.frank/" target="_blank">Instagram</a></i>
+    
+          <i class="fa-brands fa-square-facebook" style="color: #ffffff;"> <a href="https://www.facebook.com/frank.l.king/" target="_blank">Facebook</a> </i>
+       
+          <i class="fa-brands fa-github" style="color: #ffffff;"><a href="https://github.com/frankYanez" target="_blank">Github</a> </i>
+        
+        
+        </section>
+
+        <section class="section-created">
+        <p>Created by</p>
+        <img src="./images/logo-black.png" alt="">
+        </section>
+      
+
+      
+      
+    </footer>
+    <script src="hamburguesa.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
